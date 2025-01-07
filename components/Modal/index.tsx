@@ -22,7 +22,7 @@ export default function ModalResult(props) {
 
         <Text style={styles.prices}>Com os preços:</Text>
         <Text style={styles.priceAlcoholGasoline}>
-          Alcool: R$ {parseFloat(props.alcohol).toFixed(2)}
+          Álcool: R$ {parseFloat(props.alcohol).toFixed(2)}
         </Text>
         <Text style={styles.priceAlcoholGasoline}>
           Gasolina: R$ {parseFloat(props.gasoline).toFixed(2)}
